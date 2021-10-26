@@ -3,8 +3,4 @@
 #gives the list of all azure locations in table format 
 az account list-locations --output table 
 
-#Command to simulate errors of parameter validation
-az deployment group create --resource-group rg-demo-arm --template-uri "https://raw.githubusercontent.com/rajeshr6r/arm_templates/master/azresourcedeploywithparams.json" --parameters storageaccountname="qwe4" storagelocation="eastus" storagekind="StorageV1" storagesku="Standard_RAGZRS"
 
-
-az deployment group create --resource-group rg-demo-arm --template-uri "https://raw.githubusercontent.com/rajeshr6r/arm_templates/master/azresourcedeploywithparams.json" --parameters storageaccountname="qwe4qwe4" storagelocation="westeurope" storagekind="StorageV2" storagesku="Standard_GRS"
