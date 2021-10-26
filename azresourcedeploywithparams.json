@@ -58,7 +58,10 @@
             },
             "location": "[parameters('storagelocation')]",
             "kind": "[parameters('storagekind')]",
-            "sku": "[parameters('storagesku')]"
+            "sku": {
+                "name": "[parameters('storagesku')]",
+                "tier": "Standard"
+            } 
         }
     ],
     "outputs": {}
