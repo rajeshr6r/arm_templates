@@ -2,5 +2,8 @@
 
 #gives the list of all azure locations in table format 
 az account list-locations --output table 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2d4bb2150d371c77e07e793cf5d069a64a428d6b
