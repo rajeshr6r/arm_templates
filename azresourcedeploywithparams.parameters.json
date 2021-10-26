@@ -1,0 +1,18 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageaccountname": {
+      "value": "test-r6r5789"
+    },
+    "storagelocation": {
+      "value": "westeurope"
+    },
+    "storagekind": {
+      "value": "StorageV2"
+    },
+    "storagesku": {
+      "value": "Standard_LRS"
+    }
+  }
+}
